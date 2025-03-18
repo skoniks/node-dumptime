@@ -2,17 +2,9 @@
   "name": "@sknx/dumptime",
   "version": "1.0.0",
   "description": "Writes current time in specified file",
-  "main": "index.js",
-  "keywords": [
-    "dump",
-    "time",
-    "file"
-  ],
   "author": "skoniks",
   "license": "ISC",
-  "devDependencies": {
-    "@types/node": "^22.13.10"
-  },
+  "bin": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -20,8 +12,12 @@
     "type": "git",
     "url": "git+https://github.com/skoniks/node-dumptime.git"
   },
-  "bugs": {
-    "url": "https://github.com/skoniks/node-dumptime/issues"
-  },
-  "homepage": "https://github.com/skoniks/node-dumptime#readme"
+  "keywords": [
+    "dump",
+    "time",
+    "file"
+  ],
+  "devDependencies": {
+    "@types/node": "^22.13.10"
+  }
 }
